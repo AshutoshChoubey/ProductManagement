@@ -1,0 +1,1 @@
+ALTER TABLE `purchases` ADD `entry_date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `deleted_at`;
